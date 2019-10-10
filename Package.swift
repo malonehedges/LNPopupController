@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "LNPopupController", targets: ["LNPopupController"]),
     ],
     targets: [
-        .target(name: "LNPopupController", path: "Source")
+        .target(name: "LNPopupController", path: "LNPopupController")
     ],
     swiftLanguageVersions: [
         .v5
